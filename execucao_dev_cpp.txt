@@ -1,0 +1,168 @@
+ARQUIVO: execucao_dev_cpp.txt
+PROJETO: Sistema de Venda e Controle de Estoque em C
+LINGUAGEM: C
+AMBIENTE: Dev-C++
+
+============================================================
+1. ABRIR O DEV-C++
+============================================================
+
+Abra o programa Dev-C++ no computador.
+
+
+============================================================
+2. CRIAR UM NOVO ARQUIVO C
+============================================================
+
+No Dev-C++, siga o caminho:
+
+Arquivo > Novo > Arquivo Fonte
+
+Depois cole todo o código do programa no arquivo aberto.
+
+
+============================================================
+3. SALVAR O ARQUIVO
+============================================================
+
+Salve o arquivo com o nome:
+
+main.c
+
+IMPORTANTE:
+O arquivo deve terminar com .c, pois o programa foi feito em linguagem C.
+
+Exemplo de local para salvar:
+
+Área de Trabalho > projeto-arquivos-binarios-c > main.c
+
+
+============================================================
+4. COMPILAR O PROGRAMA
+============================================================
+
+Para compilar, clique no botão:
+
+Compilar
+
+Ou use o atalho:
+
+F9
+
+O Dev-C++ irá verificar se existe algum erro no código.
+
+
+============================================================
+5. EXECUTAR O PROGRAMA
+============================================================
+
+Depois de compilar, clique no botão:
+
+Executar
+
+Ou use o atalho:
+
+F10
+
+
+============================================================
+6. COMPILAR E EXECUTAR AO MESMO TEMPO
+============================================================
+
+Também é possível compilar e executar diretamente.
+
+Clique em:
+
+Executar > Compilar e Executar
+
+Ou use o atalho:
+
+F11
+
+
+============================================================
+7. FUNCIONAMENTO DOS ARQUIVOS BINÁRIOS
+============================================================
+
+O programa utiliza dois arquivos binários:
+
+produtos.bin
+vendas.bin
+
+Esses arquivos serão criados automaticamente pelo programa
+quando forem realizados cadastros de produtos e vendas.
+
+Não é necessário criar os arquivos .bin manualmente.
+
+
+============================================================
+8. ONDE OS ARQUIVOS BINÁRIOS FICAM SALVOS
+============================================================
+
+No Dev-C++, os arquivos produtos.bin e vendas.bin geralmente
+ficam salvos na mesma pasta onde está o arquivo main.c ou onde
+o executável do programa foi criado.
+
+Por isso, é recomendado criar uma pasta própria para o projeto,
+por exemplo:
+
+projeto-arquivos-binarios-c
+
+E salvar o main.c dentro dessa pasta.
+
+
+============================================================
+9. COMO TESTAR O PROGRAMA
+============================================================
+
+Ao executar o programa, será exibido um menu com as opções:
+
+1 - Cadastrar produto
+2 - Cadastrar venda
+3 - Listar todos os produtos
+4 - Listar todas as vendas
+5 - Buscar produto por ID
+6 - Buscar venda por ID
+7 - Atualizar produto
+8 - Atualizar venda
+9 - Remover produto
+10 - Remover venda
+11 - Relatório de vendas com nomes dos produtos
+0 - Sair
+
+Primeiro, cadastre alguns produtos.
+Depois, cadastre uma venda usando os IDs dos produtos cadastrados.
+Em seguida, teste os relatórios, buscas, atualizações e remoções.
+
+
+============================================================
+10. OBSERVAÇÃO IMPORTANTE
+============================================================
+
+Para cadastrar uma venda, é necessário que já existam produtos
+cadastrados no arquivo produtos.bin.
+
+A venda armazena os IDs dos produtos vendidos, criando assim
+o relacionamento entre os dois arquivos binários.
+
+
+============================================================
+11. RESUMO DOS ATALHOS DO DEV-C++
+============================================================
+
+F9  - Compilar
+F10 - Executar
+F11 - Compilar e Executar
+
+
+============================================================
+12. ARQUIVOS DO PROJETO
+============================================================
+
+O projeto deve conter pelo menos:
+
+main.c
+execucao_dev_cpp.txt
+
+Os arquivos produtos.bin e vendas.bin serão gerados automaticamente
+durante a execução do programa.
